@@ -5,7 +5,27 @@
     "author": "Thiago do N. Ferreira",
     "license": "MIT",
     "main": "src/index.js",
-    "keywords": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thiagodonferreira/check-arguments"
+    },
+    "keywords": [
+        "type",
+        "types",
+        "type-check",
+        "type-checking",
+        "duck-typing",
+        "arguments",
+        "parameters",
+        "values",
+        "data",
+        "contract",
+        "assert",
+        "check",
+        "verify",
+        "safe",
+        "safety"
+    ],
     "scripts": {
         "dev": "nodemon --ignore dist/ --exec npm run all",
         "lint": "eslint .",
