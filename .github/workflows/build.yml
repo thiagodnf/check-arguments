@@ -12,6 +12,10 @@ jobs:
       - name: Checking out the project
         uses: actions/checkout@v3
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 12
+
       - name: Installing the dependencies
         run: npm install
 
