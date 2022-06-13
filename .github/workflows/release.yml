@@ -12,7 +12,7 @@ jobs:
       contents: write
     steps:
 
-      - uses: ./.github/workflows/build.yml
+      - uses: thiagodonferreira/check-arguments/.github/workflows/build.yml
 
       - id: releaser
         name: New Version Decider
