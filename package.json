@@ -36,7 +36,8 @@
         "dev": "nodemon --ignore dist/ --exec npm run all",
         "lint": "eslint .",
         "link": "npm link",
-        "test": "jest ./test --coverage"
+        "test": "jest ./test --coverage",
+        "all": "npm run lint && npm test"
     },
     "engines": {
         "node": ">=16.14.0"
