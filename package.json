@@ -1,0 +1,26 @@
+{
+    "name": "check-arguments",
+    "version": "0.0.1",
+    "description": "A little javascript library for checking argument values",
+    "author": "Thiago do N. Ferreira",
+    "license": "MIT",
+    "main": "src/index.js",
+    "keywords": [],
+    "scripts": {
+        "dev": "nodemon --ignore dist/ --exec npm run all",
+        "lint": "eslint .",
+        "link": "npm link",
+        "test": "jest ./test --coverage"
+    },
+    "engines": {
+        "node": ">=16.14.0"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "7.18.0",
+        "@vercel/ncc": "0.33.4",
+        "babel-jest": "28.1.0",
+        "eslint": "8.15.0",
+        "jest": "28.1.0",
+        "nodemon": "2.0.16"
+    }
+}
