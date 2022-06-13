@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main
+
+on:
+  workflow_call:
+
 jobs:
   build:
     runs-on: ubuntu-latest
