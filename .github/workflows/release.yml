@@ -44,5 +44,6 @@ jobs:
 
       - name: Publishing it to registry
         uses: JS-DevTools/npm-publish@v1.0.0
+        if: ${{steps.releaser.outputs.shouldGenerateANewVersion == 'true' }}
         with:
           token: ${{ secrets.NPM_TOKEN }}
