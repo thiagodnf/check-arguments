@@ -15,11 +15,11 @@ jobs:
       - name: Checking out the project
         uses: actions/checkout@v3
 
-      - name: Running building
-        uses: thiagodonferreira/check-arguments/.github/workflows/build.yml@main
+      - name: Installing the dependencies
+        run: npm install
 
-      # - name: Building the project
-      #   run: npm run all
+      - name: Building the project
+        run: npm run all
 
       - id: releaser
         name: New Version Decider
