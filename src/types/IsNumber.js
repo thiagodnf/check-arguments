@@ -77,13 +77,6 @@ class IsNumber extends Is {
 
         return this;
     }
-
-    isInfinity() {
-
-        this.ensure(this.thing === Number.NEGATIVE_INFINITY || this.thing === Number.POSITIVE_INFINITY, "is not infinity");
-
-        return this;
-    }
 }
 
 module.exports.IsNumber = IsNumber;
