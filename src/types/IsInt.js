@@ -12,14 +12,14 @@ class IsInt extends IsNumber {
 
     isEven() {
 
-        this.ensure(this.thing % 2 === 0, this.thing + " is not even");
+        this.ensure(this.thing % 2 === 0, "is not even");
 
         return this;
     }
 
     isOdd() {
 
-        this.ensure(this.thing % 2 !== 0, this.thing + " is not odd");
+        this.ensure(this.thing % 2 !== 0, "is not odd");
 
         return this;
     }
