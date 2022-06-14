@@ -42,8 +42,8 @@ or
 ```js
 function foo(a, b){
 
-    check(val).isInt().isBetween(12, 20);
-    check(val).isString();
+    check(a).isInt().isBetween(12, 20);
+    check(b).isString();
 }
 ```
 
