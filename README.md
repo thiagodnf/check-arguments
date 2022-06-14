@@ -34,7 +34,10 @@ Now you can use it on your functions:
 
 ```js
 function foo(val){
+
     check(val).isString().isNotBlank();
+
+    // The remaining source code
 }
 ```
 
@@ -44,6 +47,8 @@ function foo(a, b){
 
     check(a).isInt().isBetween(12, 20);
     check(b).isString();
+
+    // The remaining source code
 }
 ```
 
