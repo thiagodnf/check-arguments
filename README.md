@@ -34,22 +34,42 @@ Now you can use it on your functions:
 
 ```js
 function foo(val){
-
     check(val).isString().isNotBlank();
 }
 ```
 
 or
 ```js
-function foo(val){
+function foo(a, b){
 
     check(val).isInt().isBetween(12, 20);
+    check(val).isString();
 }
 ```
 
 ### Predicates
 
+These are the list of predicates you may use
 
+For `isNumber()`:
+
+ - `isLessThan(max)`
+ - `isLessThanOrEqualsTo(max)`
+ - `isGreaterThan(min)`
+ - `isGreaterThanOrEqualsTo(min)`
+ - `isBetween(min, max)`
+ - `inRange(min, max)`
+ - `isPositive()`
+ - `isNegative()`
+
+For `isInt()`:
+
+ - `isEven()`
+ - `isOdd()`
+
+For `isString()`:
+
+ - `isNotBlank()`
 
 ## For Developers
 
