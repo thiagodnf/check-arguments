@@ -1,5 +1,5 @@
 
-<img src="https://user-images.githubusercontent.com/98138701/173466440-2a051a17-b509-4ca6-9499-87bc3b2d0944.png" width="250px"/>
+<img src="https://user-images.githubusercontent.com/98138701/173466440-2a051a17-b509-4ca6-9499-87bc3b2d0944.png" width="300px"/>
 
 A little javascript library for checking argument values
 
@@ -9,6 +9,34 @@ A little javascript library for checking argument values
 [![GitHub stars](https://img.shields.io/github/stars/thiagodonferreira/check-arguments.svg)](https://github.com/thiagodonferreira/check-arguments)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
+## Why
+
+It takes time to add explicit conditions to your functions to check arguments and throw errors. The purpose of this library is to assist developers on writing efficiently and reliably those conditions.
+
+## How Do I Install It?
+
+Via NPM:
+
+```sh
+npm i check-arguments --save
+```
+
+## How to I Use It?
+
+Loading the library:
+
+```js
+const { check } = require("check-arguments");
+```
+
+Now you can use it on your functions:
+
+```js
+function foo(val){
+    check(val).isString().isNotBlank();
+}
+```
 
 ## For Developers
 
