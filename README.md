@@ -34,9 +34,22 @@ Now you can use it on your functions:
 
 ```js
 function foo(val){
+
     check(val).isString().isNotBlank();
 }
 ```
+
+or
+```js
+function foo(val){
+
+    check(val).isInt().isBetween(12, 20);
+}
+```
+
+### Predicates
+
+
 
 ## For Developers
 
