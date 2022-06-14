@@ -7,7 +7,7 @@
     "main": "src/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/thiagodonferreira/check-arguments"
+        "url": "https://github.com/thiagodonferreira/check-arguments.git"
     },
     "keywords": [
         "arguments",
