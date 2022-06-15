@@ -76,6 +76,11 @@ For `isString()`:
 
  - `isNotBlank()`
 
+For `isObject()`:
+
+ - `hasKey()`
+ - `isEmpty()`
+
 ## For Developers
 
 Install the dependencies
