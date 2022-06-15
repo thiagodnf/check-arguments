@@ -1,6 +1,6 @@
 {
     "name": "check-arguments",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "description": "A little javascript library for checking argument values",
     "author": "Thiago do N. Ferreira",
     "license": "MIT",
