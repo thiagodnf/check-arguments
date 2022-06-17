@@ -2,11 +2,17 @@ const { IsInt } = require("./types/IsInt");
 const { IsNumber } = require("./types/IsNumber");
 const { IsString } = require("./types/IsString");
 
+/**
+ * Use this function as a starting point when you want
+ * to evalute the arguments/parameters
+ *
+ * @param  {*} thing the variable under test
+ *
+ * @returns an object so you can call the predicates
+ */
 function check(thing) {
 
-    let checker = {
-
-        thing,
+    return {
 
         isNumber: function () {
             return new IsNumber(thing);
@@ -18,8 +24,6 @@ function check(thing) {
             return new IsString(thing);
         }
     };
-
-    return checker;
 }
 
 module.exports = check;
