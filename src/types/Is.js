@@ -1,5 +1,13 @@
+/**
+ * Abstract class where every type should extend
+ */
 class Is {
 
+    /**
+     * Constructor
+     *
+     * @param {*} thing the variable under test
+     */
     constructor(thing) {
 
         this.thing = thing;

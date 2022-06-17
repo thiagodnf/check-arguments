@@ -1,7 +1,15 @@
 const { IsNumber } = require("./IsNumber");
 
+/**
+ * Class to validate all integer values
+ */
 class IsInt extends IsNumber {
 
+    /**
+     * Constructor
+     *
+     * @param {*} thing the variable under test
+     */
     constructor(thing) {
         super(thing);
 
