@@ -1,5 +1,6 @@
 const { IsInt } = require("./types/IsInt");
 const { IsNumber } = require("./types/IsNumber");
+const { IsObject } = require("./types/IsObject");
 const { IsString } = require("./types/IsString");
 
 /**
@@ -22,6 +23,9 @@ function check(thing) {
         },
         isString: function () {
             return new IsString(thing);
+        },
+        isObject: function () {
+            return new IsObject(thing);
         }
     };
 }
