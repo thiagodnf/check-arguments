@@ -24,6 +24,20 @@ class IsArray extends IsObject {
 
         return this;
     }
+
+    isNonEmpty() {
+
+        this.ensure(this.thing.length !== 0, "is empty");
+
+        return this;
+    }
+
+    hasLength(length) {
+
+        this.ensure(this.thing.length === length, `is not equals to ${length}`);
+
+        return this;
+    }
 }
 
 module.exports.IsArray = IsArray;

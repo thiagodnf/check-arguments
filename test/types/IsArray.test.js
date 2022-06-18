@@ -33,3 +33,19 @@ test("should validate if thing is empty array", async () => {
 
     await expect(() => new IsArray([1]).isEmpty()).toThrow(TypeError);
 });
+
+test("should validate if thing is not empty array", async () => {
+
+    await expect(() => new IsArray([1]).isNonEmpty()).not.toThrow(TypeError);
+
+    await expect(() => new IsArray([]).isNonEmpty()).toThrow(TypeError);
+});
+
+test("should validate if thing is has length to", async () => {
+
+    await expect(() => new IsArray([]).hasLength(0)).not.toThrow(TypeError);
+    await expect(() => new IsArray(["a"]).hasLength(1)).not.toThrow(TypeError);
+    await expect(() => new IsArray([{foo: 1}, 2]).hasLength(2)).not.toThrow(TypeError);
+
+    await expect(() => new IsArray([1]).hasLength(2)).toThrow(TypeError);
+});
