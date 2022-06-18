@@ -2,6 +2,7 @@ const { IsInt } = require("./types/IsInt");
 const { IsNumber } = require("./types/IsNumber");
 const { IsObject } = require("./types/IsObject");
 const { IsString } = require("./types/IsString");
+const { IsArray } = require("./types/IsArray");
 
 /**
  * Use this function as a starting point when you want
@@ -26,6 +27,9 @@ function check(thing) {
         },
         isObject: function () {
             return new IsObject(thing);
+        },
+        isArray: function () {
+            return new IsArray(thing);
         }
     };
 }
