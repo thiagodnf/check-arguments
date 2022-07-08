@@ -2,12 +2,12 @@
     "name": "check-arguments",
     "version": "0.3.0",
     "description": "A little javascript library for checking argument values",
-    "author": "Thiago do N. Ferreira",
+    "author": "Thiago Ferreira",
     "license": "MIT",
     "main": "src/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/thiagodonferreira/check-arguments.git"
+        "url": "https://github.com/thiagodnf/check-arguments.git"
     },
     "keywords": [
         "arguments",
