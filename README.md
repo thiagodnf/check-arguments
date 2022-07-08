@@ -3,10 +3,10 @@
 
 A little javascript library for checking argument values
 
-[![Build](https://github.com/thiagodonferreira/check-arguments/actions/workflows/build.yml/badge.svg)](https://github.com/thiagodonferreira/check-arguments/actions/workflows/build.yml)
-[![GitHub Release](https://img.shields.io/github/release/thiagodonferreira/check-arguments.svg)](https://github.com/thiagodonferreira/check-arguments/releases/latest)
-[![GitHub contributors](https://img.shields.io/github/contributors/thiagodonferreira/check-arguments.svg)](https://github.com/thiagodonferreira/check-arguments/graphs/contributors)
-[![GitHub stars](https://img.shields.io/github/stars/thiagodonferreira/check-arguments.svg)](https://github.com/thiagodonferreira/check-arguments)
+[![Build](https://github.com/thiagodnf/check-arguments/actions/workflows/build.yml/badge.svg)](https://github.com/thiagodnf/check-arguments/actions/workflows/build.yml)
+[![GitHub Release](https://img.shields.io/github/release/thiagodnf/check-arguments.svg)](https://github.com/thiagodnf/check-arguments/releases/latest)
+[![GitHub contributors](https://img.shields.io/github/contributors/thiagodnf/check-arguments.svg)](https://github.com/thiagodnf/check-arguments/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/thiagodnf/check-arguments.svg)](https://github.com/thiagodnf/check-arguments)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 
